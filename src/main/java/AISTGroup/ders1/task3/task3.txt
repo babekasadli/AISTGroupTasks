@@ -1,0 +1,1 @@
+task 3) 4 ve 6. Çünki public, static və void mütləq şəkildə olmalıdır.
