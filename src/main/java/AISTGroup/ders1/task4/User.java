@@ -1,11 +1,13 @@
 package AISTGroup.ders1.task4;
 
+import java.math.BigDecimal;
+
 public class User {
     private String username;
-    private String password; //password char[] şəklində saxlanılması tövsiyə olunur.
+    private char[] password;
     private String fullName;
     private int age;
-    private double balance; //todo: balance dəqiqlik üçün BigDecimal datatype-ında saxlanılmalıdır.
+    private BigDecimal balance;
 
     private static int count = 0;
 
@@ -14,7 +16,7 @@ public class User {
         System.out.println("User count: " + count);
     }
 
-    public User(String username, String password, String fullName, int age, double balance) {
+    public User(String username, char[] password, String fullName, int age, BigDecimal balance) {
         this.username = username;
         this.password = password;
         this.fullName = fullName;
@@ -32,11 +34,11 @@ public class User {
         this.username = username;
     }
 
-    public String getPassword() {
+    public char[] getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
+    public void setPassword(char[] password) {
         this.password = password;
     }
 
@@ -56,20 +58,20 @@ public class User {
         this.age = age;
     }
 
-    public double getBalance() {
+    public BigDecimal getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
 
     @Override
     public String toString() {
         return "Username: " + username + "\n" +
-               "Full Name: " + fullName + "\n" +
-               "Age: " + age + "\n" +
-               "Balance: " + balance + "\n";
+                "Full Name: " + fullName + "\n" +
+                "Age: " + age + "\n" +
+                "Balance: " + balance + "\n";
     }
-
 }
+

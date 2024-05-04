@@ -14,7 +14,7 @@ import java.util.Properties;
 
 public class Scrapper {
     //Scaperi başlatmadan önce TARGET_PAGE burada təyin edilməlidir.
-    private static final int TARGET_PAGE = 5;
+    private static final int TARGET_PAGE = 6;
     private static final String PROPERTIES = "scraper.properties";
 
     public static void main(String[] args) {

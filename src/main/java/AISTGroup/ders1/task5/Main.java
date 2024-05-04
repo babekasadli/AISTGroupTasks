@@ -8,6 +8,7 @@ public class Main {
 
         Language language = new Language();
         language.printLanguage();
+        language.printLanguage("Dunyada 7000-den cox dil var");
 
         French french = new French();
         french.printLanguage();

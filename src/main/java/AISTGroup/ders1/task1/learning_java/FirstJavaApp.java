@@ -4,3 +4,10 @@ public class FirstJavaApp{
         System.out.println("Mən Java proqramlaşdırma dilini öyrənməyə başlayıram!");
     }
 }
+
+/*
+    javac FirstJavaApp.java
+    java FirstJavaApp
+    javap FirstJavaApp.class
+ */
+
