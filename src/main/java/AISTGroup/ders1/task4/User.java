@@ -2,10 +2,10 @@ package AISTGroup.ders1.task4;
 
 public class User {
     private String username;
-    private String password;
+    private String password; //password char[] şəklində saxlanılması tövsiyə olunur.
     private String fullName;
     private int age;
-    private double balance;
+    private double balance; //todo: balance dəqiqlik üçün BigDecimal datatype-ında saxlanılmalıdır.
 
     private static int count = 0;
 
