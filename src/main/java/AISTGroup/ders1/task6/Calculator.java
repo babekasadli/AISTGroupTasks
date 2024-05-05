@@ -1,7 +1,7 @@
 package AISTGroup.ders1.task6;
 
 import java.util.Scanner;
-
+//todo: istəyə uygun olaraq n qədər ədəd daxil etmək olmur, və programda davam etmək, çıxış kimi funkisionallıqlar nəzərə alınmayıb.
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
